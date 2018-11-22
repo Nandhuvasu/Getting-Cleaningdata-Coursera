@@ -13,9 +13,11 @@ The Subject and Activity columns are taken as factors;
 Using the "reshape2" library, the dataset is melted and stored in "melt_merged_data" and are cast into the tidy dataset, "final_merged_data". 
 The tidy dataset consists of averaged out values for each variable for each subject and activity. 
 The output file is written as text file titled "TidyDataSet.txt".
+
 Identifiers in "TidyDataSet.txt":
 1. Subject
-2. Activity
+2. Activity.
+
 Variables in "TidyDataSet.txt":
 1. tBodyAccMeanX 
 2. tBodyAccStdX 
@@ -48,6 +50,7 @@ Variables in "TidyDataSet.txt":
 29. fBodyAccMagMean 
 30. fBodyAccMagStd 
 And similar other 49 variables for various motions.
+
 The activity names:
 1. WALKING
 2. WALKING_UPSTAIRS
