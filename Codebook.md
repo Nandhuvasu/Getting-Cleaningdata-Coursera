@@ -10,5 +10,6 @@ Then they are merged.
 "merged_data" is the required dataset.
 They are given redable clumn names, based on variables.
 The Subject and Activity columns are taken as factors;
-Using the "reshape2" library, the dataset is melted and are cast into the tidy dataset.
+Using the "reshape2" library, the dataset is melted and stored in "melt_merged_data" and are cast into the tidy dataset, "final_merged_data".
 The tidy dataset consists of averaged out values for each variable for each subject and activity.
+The output file is written as text file titled "TidyDataSet.txt".
