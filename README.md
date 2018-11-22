@@ -1,5 +1,5 @@
 # Getting-Cleaningdata-Coursera
-Assignment upload for the course
+Assignment upload for the course;\n
 The assignment requires analysis of an existing dataset
 The dataset comprises of fitness activity details recovered through experiment
 To use the R-script uploaded you require the following dataset:
